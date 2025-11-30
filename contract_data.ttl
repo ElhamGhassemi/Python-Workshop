@@ -1,0 +1,29 @@
+@prefix : <http://example.org#> .
+@prefix onz-g: <http://purl.org/ozo/onz-g#> .
+@prefix onz-pers: <http://purl.org/ozo/onz-pers#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Werkovereenkomst_C-001 a onz-pers:ArbeidsOvereenkomst ;
+    onz-g:eindDatum "2024-12-31"^^xsd:date ;
+    onz-g:startDatum "2024-01-01"^^xsd:date ;
+    onz-pers:heeftOpdrachtnemer :Medewerker_1001 .
+
+:Werkovereenkomst_C-002 a onz-pers:ArbeidsOvereenkomst ;
+    onz-g:eindDatum "2024-12-31"^^xsd:date ;
+    onz-g:startDatum "2024-02-01"^^xsd:date ;
+    onz-pers:heeftOpdrachtnemer :Medewerker_1002 .
+
+:Werkovereenkomst_C-003 a onz-pers:ArbeidsOvereenkomst ;
+    onz-g:startDatum "2024-03-01"^^xsd:date ;
+    onz-pers:heeftOpdrachtnemer :Medewerker_1003 .
+
+:Medewerker_1001 a onz-pers:Human ;
+    rdfs:label "1001"^^xsd:string .
+
+:Medewerker_1002 a onz-pers:Human ;
+    rdfs:label "1002"^^xsd:string .
+
+:Medewerker_1003 a onz-pers:Human ;
+    rdfs:label "1003"^^xsd:string .
+
