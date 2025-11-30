@@ -1,6 +1,3 @@
-from platform import python_version
-print(python_version())
-
 def check_even_or_odd(user_input):
     
     number = int(user_input)
