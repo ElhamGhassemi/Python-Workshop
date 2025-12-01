@@ -12,12 +12,12 @@ ex:event_E101 a schema1:Event ;
     schema1:organizer <http://example.org/id#person/2> ;
     schema1:startDate "1501-01-01"^^xsd:date .
 
-ex:person_1 a schema1:Person ;
+<http://example.org/id#person/1> a schema1:Person ;
     schema1:birthDate "1201-01-01"^^xsd:date ;
     schema1:email "alice@example.org" ;
     schema1:name "Alice Doe" .
 
-ex:person_2 a schema1:Person ;
+<http://example.org/id#person/2> a schema1:Person ;
     schema1:birthDate "3001-01-01"^^xsd:date ;
     schema1:email "bob@example.org" ;
     schema1:name "Bob Smith" .
